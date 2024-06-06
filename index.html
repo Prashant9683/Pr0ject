@@ -76,16 +76,30 @@
               <input
                 type="email"
                 id="email"
+                name="email"
                 placeholder="Johndoe@acme.com"
                 required
               />
               <div class="name-fields">
-                <input type="text" id="firstName" placeholder="John" required />
-                <input type="text" id="lastName" placeholder="Doe" required />
+                <input
+                  type="text"
+                  id="firstName"
+                  placeholder="John"
+                  name="firstname"
+                  required
+                />
+                <input
+                  type="text"
+                  id="lastName"
+                  placeholder="Doe"
+                  name="lastname"
+                  required
+                />
               </div>
               <label>
-                <input type="checkbox" id="terms" /> I agree to Fyle's terms and
-                conditions, and provide consent to send me communication.
+                <input type="checkbox" id="terms" name="checkbox" required /> I
+                agree to Fyle's terms and conditions, and provide consent to
+                send me communication.
               </label>
               <button type="submit" class="btn btn-danger" style="width: 100%">
                 Contact Us
